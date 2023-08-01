@@ -1,0 +1,29 @@
+body{
+  background: #111;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+  color: #fff;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #986dff;
+  border-radius: 5px;
+}
+
+
+::selection {
+  background-color: #986dff;
+  color: #fff;
+}

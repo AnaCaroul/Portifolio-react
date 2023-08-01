@@ -1,0 +1,148 @@
+
+.header{
+    background-color: #111111;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+}
+
+.h3{
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.divLogo{ 
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+}
+
+header img{ 
+    width: 30px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.divLinks{
+    display: grid;
+    justify-content: end;
+    align-items: center;
+    grid-template-columns: auto;
+    column-gap: 20px;
+}
+
+.header p{ 
+    color: #9DA3AE;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    cursor: pointer;
+}
+
+.header p:hover{
+    color: #FFF;
+}
+ 
+.header p::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1.2px;
+    border-radius: 2px;
+    background-color: #926FF7;
+    bottom: 0;
+    left: 0;
+    transform-origin: center;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+  
+.header p:hover::before {
+    transform-origin: center;
+    transform: scaleX(1);
+  }
+
+
+.header p{ 
+    color: #9DA3AE;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    cursor: pointer;
+}
+
+.header p:hover{
+    color: #FFF;
+}
+ 
+.header p::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1.2px;
+    border-radius: 2px;
+    background-color: #926FF7;
+    bottom: 0;
+    left: 0;
+    transform-origin: center;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+  
+.header p:hover::before {
+    transform-origin: center;
+    transform: scaleX(1);
+}
+
+/* ___________________________________________ */
+
+.p{ 
+    color: #9DA3AE;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.p:hover{
+    color: #FFF;
+}
+ 
+.p::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1.2px;
+    border-radius: 2px;
+    background-color: #926FF7;
+    bottom: 0;
+    left: 0;
+    transform-origin: center;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+  
+.p:hover::before {
+    transform-origin: center;
+    transform: scaleX(1);
+}
+

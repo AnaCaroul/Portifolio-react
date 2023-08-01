@@ -1,0 +1,37 @@
+.Footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #111;
+    width: 100vw;
+    height: 10vh;
+}
+
+.txtBottom{
+    font-family: 'DM Sans', sans-serif;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 2vw;
+    align-self: center;
+}
+
+.txtBottom span{
+    color: #7B4AE2;
+    font-weight: 500;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 15vw;
+    margin-right: 2vw;
+    
+}
+
+.logos img{
+    width: 34px;
+    height: 34px;
+}
